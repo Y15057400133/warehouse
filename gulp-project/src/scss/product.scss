@@ -1,0 +1,169 @@
+//产品页样式   组合其他部分样式
+@import "./component/style.scss";  //公共主体样式
+@import "./component/header.scss";  //头部样式
+@import "./component/footer.scss";  //尾部样式
+
+#banner{
+		width:100%;
+		height:493px;
+		// border:1px solid red;
+		}
+		#banner .banner-box{
+		/* width:1264px; */
+		width:100%;
+		height:494px;
+		margin: 0 auto;
+		}	
+		#banner .banner-box img{
+		width:100%;
+		height:494px;	
+		}
+		
+		#main{
+		width:100%;
+		height:1929px;
+		// border:1px solid red;	
+		background:#eff4f7;
+		}	
+		#main-box{
+		width:1264px;
+		/* 记得改成最小高度 */
+		height:1929px;    
+		// border:1px solid blue;
+		margin: 0 auto;
+		}	
+	#main-box .wrap{
+		width:1146px;
+		/* 记得改成最小高度 */
+		min-height:1929px;   
+		// border:1px solid blue;
+		margin: 0 auto;
+	}
+	#main-box .wrap #wrap-box{
+	width:1146px;
+	height:398px;   
+	border:1px solid #eff4f7;		
+	}
+	#wrap-box-fram{
+	width:1146px;
+	height:196px;   
+	// border:1px solid blue;
+	margin-top:99px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	}
+	#wrap-box-fram ul{
+	overflow: hidden;
+	margin: 24px auto;
+	height: 150px;
+	position: absolute;
+	display: flex;
+	left: 0px;
+	top: 0px;
+	}
+	
+	#wrap-box-fram span{
+	display: block;
+	width:38px;
+	height:47px;   
+	border:1px solid #ccc;
+	text-align: center;
+	font-size:46px;
+	margin-top: 78px;
+	position: absolute;
+	z-index: 10;
+	}
+	#wrap-box-fram span:first-child{
+	top: 0px;
+	left: 0px;
+	}
+	#wrap-box-fram span:last-child{
+	top: 0px;
+	left:1106px;
+	}
+	
+	#wrap-box-fram ul li{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #fff;
+	float: left;
+	text-align: center;
+	margin-left:110px;
+	}
+	#wrap-box-fram ul li img{
+	width: 150px;
+	height:125px;
+	border: 1px solid #fff;
+	}
+	#wrap-box-fram ul li a{
+	color: black;
+	font-size: 12px;
+	}
+	
+	#main-box .wrap #wrap-box2{
+	width:1146px;
+	height:1533px;   
+	// border:1px solid blue;	
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+	align-content: flex-start;
+	}
+	#main-box .wrap #wrap-box2 div{
+	width:558px;
+	height:497px;   
+	border:1px solid #eff4f7;
+	margin-top: 30px;
+	background: #fff;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	}
+	#main-box .wrap #wrap-box2 div:hover{
+	box-shadow: 5px 5px 10px black;
+	margin-top: 35px;
+	}
+	
+	#main-box .wrap #wrap-box2 div img{
+	width:558px;
+	height:497px;
+	}
+	#main-box .wrap #wrap-box2 div span{
+		display: block;
+		// border: 1px solid red;
+		text-align: center;
+		top:46px;
+		left:241px;
+		position: absolute;
+	}
+	#main-box .wrap #wrap-box2 div h1{
+	width: 558px;
+	// border: 1px solid red;
+	text-align: center;
+	top:79px;
+	position: absolute;
+	}
+	#main-box .wrap #wrap-box2 div a{
+	display: block;
+	// border: 1px solid red;
+	text-align: center;
+	top:137px;
+	left:202px;
+	position: absolute;	
+	}
+	#main-box .wrap #wrap-box2 div #Alink{
+	display: block;
+	// border: 1px solid red;
+	text-align: center;
+	top:137px;
+	left:306px;
+	position: absolute;		
+	}
+	
+	#main-box .wrap #wrap-box2 div:nth-child(1){
+		margin-top:0;
+	}
+	#main-box .wrap #wrap-box2 div:nth-child(2){
+		margin-top:0;
+	}

@@ -1,0 +1,141 @@
+//主体页面样式    组合其他的css（scss）样式   header footer 
+@import "./component/style.scss";  //公共主体样式
+@import "./component/header.scss";  //头部样式
+@import "./component/footer.scss";  //尾部样式
+
+#main{
+	width: 100%;
+	min-height:500px;
+	background: #ccc;
+	}
+	#main-wrap{
+	width:1264px;
+	min-height:500px;
+	margin: 0 auto;
+	background: #fff;
+	}
+	#main-wrap ul{
+	width:1264px;
+	height:50px;	
+	background: #ccc;
+	}
+	#main-wrap ul li{
+	width:241px;
+	height:50px;
+	float: left;
+	text-align: center;
+	margin-left:59px;
+	line-height: 50px;
+	color: #fff;
+	font-weight: bold;
+	}
+	#main-wrap ul li:first-child{
+	margin-left:70px;
+	text-align: left;
+	}
+	
+	
+	#main-wrap ul li:nth-child(3){
+	margin-left:93px;
+	}
+	#main-wrap #div{
+	width:1264px;
+	height:103px;
+	border: 1px solid #ccc;
+	padding-top:17px;	
+	position: relative;
+	background:#fff4e8;
+	}
+	#main-wrap div #box1{
+	width:150px;
+	height:103px;
+	}
+	#main-wrap div #box1 input{
+	margin-left: 30px;
+	float: left;
+	}
+	#main-wrap div #box1 dl{
+	width:103px;
+	height:103px;
+	float: right;
+	border: 1px solid #ccc;
+	}
+	#main-wrap div #box1 dl dt{
+	width:103px;
+	height:79px;
+	border: 1px solid #ccc;
+	}
+	#main-wrap div #box1 dl dt img{
+	width:103px;
+	height:79px;
+	}
+	#main-wrap div #box1 dl dd{
+	text-align: center;
+	width:103px;
+	height:20px;
+	line-height: 20px;
+	font-size:12px;
+	border: 1px solid #ccc;
+	}
+	#box2{
+	position: absolute;
+	width:179px;
+	height:41px;
+	top:79px;
+	left:764px;
+	display: flex;
+	line-height: 41px;
+	}
+	#box2 span{
+	display: block;
+	width:41px;
+	height: 41px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bolder;
+	background: #ccc;
+	cursor: pointer;
+	}
+	#box2 input{
+	border: none;
+	width:41px;
+	height:39px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 39px;
+	}
+	#box3{
+	position: absolute;
+	width:179px;
+	height:27px;
+	top:93px;
+	left:403px;
+	line-height:27px;	
+	text-align: center;
+	background: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	}
+	#main-wrap #div a{
+	position: absolute;
+	display: block;
+	width:33px;
+	height:18px;
+	left:1105px;
+	top:100px;
+	color:black;
+	}
+	#main-wrap #settle{
+	width:1264px;
+	height:40px;
+	border: 1px solid #ccc;
+	line-height: 40px;
+	background:#fff4e8;
+	}
+	#main-wrap #settle span{
+	color: red;
+	}
+	#main-wrap #settle #account{
+	float: right;
+	margin-right:124px;
+	}

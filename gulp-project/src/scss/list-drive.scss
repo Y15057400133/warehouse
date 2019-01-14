@@ -1,0 +1,116 @@
+//主体页面样式    组合其他的css（scss）样式   header footer 
+@import "./component/style.scss";  //公共主体样式
+@import "./component/header.scss";  //头部样式
+@import "./component/footer.scss";  //尾部样式
+// 本页主体
+#main{
+width:100%;
+min-height: 1158px;
+background: #eff4f7;
+}
+#main .main-wrap{
+width:1264px;
+min-height: 1158px;
+margin: 0 auto;
+}	
+#main-wrap-box1{
+width:1264px;
+height:89px;
+border: 1px solid #eff4f7;
+}
+#main-wrap-box1 .main-wrap-box1-frame{
+width:1174px;
+height:60px;	
+margin:12px auto;	
+line-height:60px;
+background: #fff;
+border-radius: 5px;
+}
+#main-wrap-box1 .main-wrap-box1-frame a{
+color:#333333;
+}
+#main-wrap-box1 .main-wrap-box1-frame p{
+color:#ccc;	
+}
+/* 第二个盒子 */
+#main-wrap-box2{
+width:1174px;
+height:1074px;
+margin:0 auto;	
+background: #fff;
+}
+#main-wrap-box2 #box2-wrap{
+width:1174px;
+height:84px;
+}	
+#main-wrap-box2 #box2-wrap ul{
+width:1174px;
+height:84px;	
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+#main-wrap-box2 #box2-wrap ul li{
+width:101px;
+height:40px;	
+border-radius: 5px;
+text-align: center;
+line-height: 40px;
+}
+#box2-wrap ul li a{
+color:black;
+font-size: 12px;
+}
+#box2-wrap ul li:hover{
+background: #18ba9b;
+}
+#box2-wrap ul .ac{
+background: #18ba9b;	
+}
+#box2-wrap2{
+width:1172px;
+height:997px;	
+}
+
+#box2-wrap2 #box2-wrap2-box{
+width:1028px;
+min-height:986px;	
+margin: 0 auto;
+display: flex;
+justify-content:space-between;
+flex-flow: wrap;
+}
+
+#box2-wrap2 #box2-wrap2-box ul{
+width:1028px;
+height:986px;	
+border: 1px solid #fff;
+position: absolute;
+left: 72px;
+}
+#box2-wrap2 #box2-wrap2-box ul li{
+width:166px;
+height:200px;
+border: 1px solid #fff;
+position: relative;
+float: left;
+margin-left:82px;
+margin-top: 40px;
+}
+#box2-wrap2 #box2-wrap2-box ul li a:first-child{
+display: block;
+position: absolute;
+top:-14px;
+}
+#box2-wrap2 #box2-wrap2-box ul li a:last-child{
+display: block;
+position: absolute;
+top:173px;
+left:55px;
+font-size:13px;
+color: black;
+}
+#box2-wrap2 #box2-wrap2-box ul li img{
+width:166px;
+height:191px;		
+}

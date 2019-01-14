@@ -1,0 +1,68 @@
+//尾部样式
+footer{
+width:100%;
+height:274px;
+/* border:1px solid red; */
+background: #eff4f7;
+position: relative;
+}
+footer #footer-wrap{
+width:1264px;
+height:228px;
+/* border:1px solid blue;	 */
+margin: 0 auto;
+padding-top:46px;
+}
+footer #footer-wrap .left-box{
+float: left;
+width:628px;
+height:114px;
+/* border:1px solid blue;	 */
+margin-left:61px;
+display: flex;
+justify-content: space-between;
+}
+footer #footer-wrap .right-box{
+float: right;
+width:194px;
+height:114px;
+/* border:1px solid blue;	 */
+margin-right: 152px;
+background: url(/static/imgs/rexian.png) no-repeat center;
+}
+footer #footer-wrap .middle-box{
+width:437px;
+height:24px;
+/* border:1px solid blue;	 */
+position: absolute;
+top:244px;
+left:481px;
+text-align: center;
+line-height:24px;
+background: url(/static/imgs/huizhang.png) no-repeat center right;
+}
+footer #footer-wrap .middle-box p{
+font-size:10px;
+float: left;
+}
+footer #footer-wrap .left-box div{
+width:52px;
+height:113px;
+/* border:1px solid blue; */	
+}
+footer #footer-wrap h6{
+font-size: 12px;
+font-weight: bold;
+}
+footer #footer-wrap .left-box div ul li{
+width:52px;
+height:13px;
+/* border:1px solid blue; */
+margin-top: 13px;
+text-align: center;
+line-height: 13px;
+}
+footer #footer-wrap .left-box div ul li a{
+font-size: 12px;	
+color: black;
+}

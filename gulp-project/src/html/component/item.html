@@ -1,0 +1,17 @@
+<!-- art-template 模板引擎渲染页面  需要下载template-web.js-->
+<!--list 声明在item.js 循环list 渲染页面 -->
+<ul>
+<script type="text/html" id="list-template">
+{{each list item i}}
+<li>
+<a href="http://localhost:4000//html/details.html?id={{item.id}}">
+ <img src="{{item.imgs}}"> 
+ </a>
+ <a href="http://localhost:4000//html/details.html?id={{item.id}}">{{item.title}}</a>
+ </li>	
+{{/each}}
+
+</script>
+</ul>	
+		
+
